@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', function (req, res) {
-  res.send('Hello MCKV! This is Ariyen  sad as ever :'(')
+  res.send('Hello MCKV! This is Ariyen  sad as ever :(')
 })
 
 app.get('/courses', function (req, res) {
